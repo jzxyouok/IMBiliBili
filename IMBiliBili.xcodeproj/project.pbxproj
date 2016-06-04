@@ -12,6 +12,9 @@
 		87480AD81D027AD900EB1D8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87480AD71D027AD900EB1D8D /* Assets.xcassets */; };
 		87480AF21D027E7200EB1D8D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87480AE71D027E7200EB1D8D /* ViewController.m */; };
 		87480AF31D027E7200EB1D8D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 87480AED1D027E7200EB1D8D /* AppDelegate.m */; };
+		87480AFB1D028E4C00EB1D8D /* Foundation+log.m in Sources */ = {isa = PBXBuildFile; fileRef = 87480AFA1D028E4C00EB1D8D /* Foundation+log.m */; };
+		87480B031D028FB100EB1D8D /* IMConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 87480B021D028FB100EB1D8D /* IMConst.m */; };
+		87480B061D02910A00EB1D8D /* UIView+IMCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 87480B051D02910A00EB1D8D /* UIView+IMCategory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +28,11 @@
 		87480AED1D027E7200EB1D8D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		87480AF41D02874500EB1D8D /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		87480AF71D02883A00EB1D8D /* Public.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Public.h; sourceTree = "<group>"; };
-		87480AF81D02885400EB1D8D /* Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		87480AFA1D028E4C00EB1D8D /* Foundation+log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+log.m"; sourceTree = "<group>"; };
+		87480B011D028FB100EB1D8D /* IMConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMConst.h; sourceTree = "<group>"; };
+		87480B021D028FB100EB1D8D /* IMConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMConst.m; sourceTree = "<group>"; };
+		87480B041D02910A00EB1D8D /* UIView+IMCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+IMCategory.h"; sourceTree = "<group>"; };
+		87480B051D02910A00EB1D8D /* UIView+IMCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+IMCategory.m"; sourceTree = "<group>"; };
 		88661DBCA5D68211B13B5602 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F94DE4F30B73CF8FDE63698 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		CE15A0EFF8E9BB076D9FC608 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -157,6 +164,8 @@
 		87480AEA1D027E7200EB1D8D /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				87480B041D02910A00EB1D8D /* UIView+IMCategory.h */,
+				87480B051D02910A00EB1D8D /* UIView+IMCategory.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -202,7 +211,9 @@
 			isa = PBXGroup;
 			children = (
 				87480AF71D02883A00EB1D8D /* Public.h */,
-				87480AF81D02885400EB1D8D /* Constant.h */,
+				87480AFA1D028E4C00EB1D8D /* Foundation+log.m */,
+				87480B011D028FB100EB1D8D /* IMConst.h */,
+				87480B021D028FB100EB1D8D /* IMConst.m */,
 			);
 			path = Header;
 			sourceTree = "<group>";
@@ -327,9 +338,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87480B061D02910A00EB1D8D /* UIView+IMCategory.m in Sources */,
 				87480AF21D027E7200EB1D8D /* ViewController.m in Sources */,
 				87480ACD1D027AD900EB1D8D /* main.m in Sources */,
+				87480B031D028FB100EB1D8D /* IMConst.m in Sources */,
 				87480AF31D027E7200EB1D8D /* AppDelegate.m in Sources */,
+				87480AFB1D028E4C00EB1D8D /* Foundation+log.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

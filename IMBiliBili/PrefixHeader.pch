@@ -10,6 +10,6 @@
 #define PrefixHeader_pch
 
 #import "Public.h"
-#import "Constant.h"
+#import "IMConst.h"
 
 #endif
