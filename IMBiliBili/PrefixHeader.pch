@@ -1,0 +1,15 @@
+//
+//  PrefixHeader.pch
+//  IMBiliBili
+//
+//  Created by 汤振治 on 16/6/4.
+//  Copyright © 2016年 Imitations. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "Public.h"
+#import "Constant.h"
+
+#endif
