@@ -8,7 +8,8 @@
 
 #import "AppDelegate.h"
 
-#import "ViewController.h"
+#import "IMTabBarController.h"
+
 
 @interface AppDelegate ()
 
@@ -23,9 +24,12 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
     // 2 设置根控制器
-    ViewController *rootVC = [[ViewController alloc] init];
-    rootVC.view.backgroundColor = [UIColor redColor];
-    self.window.rootViewController = rootVC;
+//    ViewController *rootVC = [[ViewController alloc] init];
+//    rootVC.view.backgroundColor = [UIColor redColor];
+    
+    IMTabBarController *tabBarController = [[IMTabBarController alloc] init];
+    
+    self.window.rootViewController = tabBarController;
     
     // 3 显示窗口
     [self.window makeKeyAndVisible];

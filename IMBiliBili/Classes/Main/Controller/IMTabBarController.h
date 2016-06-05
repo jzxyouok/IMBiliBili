@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  IMTabBarController.h
 //  IMBiliBili
 //
-//  Created by 汤振治 on 16/6/4.
+//  Created by 汤振治 on 16/6/5.
 //  Copyright © 2016年 Imitations. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface IMTabBarController : UITabBarController
 
 @end
-
